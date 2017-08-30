@@ -1,0 +1,22 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangkuo1993/webpack.git"
+  },
+  "author": "RobertYang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangkuo1993/webpack/issues"
+  },
+  "homepage": "https://github.com/yangkuo1993/webpack#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
