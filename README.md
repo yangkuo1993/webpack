@@ -30,4 +30,11 @@ webpack安装完成后，执行npm run build 命令，控制台会有输出。we
 
 #### demo4
 
-在demo4中，我们在html中引入了两个js，webpack配置中做了入口分离，动态输出js文件，生成对应js文件，执行npm run build 来进行构建
+在demo4中，我在html中引入了两个js，webpack配置中做了入口分离，动态输出js文件，生成对应js文件，执行npm run build 来进行构建
+
+#### demo5
+
+在demo5中，引入了html-webpack-plugin插件，自动生成html文件，这样就不需要单独进行html文件配置了。clean-webpack-plugin插件，每次构建自动清空指定文件夹
+
+在webpack.config.js中引入了devtool:'inline-source-map',用来追踪错误
+
