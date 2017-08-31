@@ -19,3 +19,11 @@ webpack安装完成后，执行npm run build 命令，控制台会有输出。we
 查看webpack.config.js，entry是入口文件，这里指向src/app.js。output输出目录，这里指向dist。
 
 #### demo2
+
+在demo2中我们在app.js引入了lodash插件，执行npm install 进行安装（自行安装请执行，npm install --save lodash）
+
+执行npm run build 我们会看到app.bundle.js中会融合lodash插件
+
+#### demo3
+
+在demo3中，引入css-loader,style-loader,file-loader。在rules中配置好loader。webpack会根据正则表达式寻找文件，将其提供给指定的loader
