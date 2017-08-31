@@ -27,3 +27,7 @@ webpack安装完成后，执行npm run build 命令，控制台会有输出。we
 #### demo3
 
 在demo3中，引入css-loader,style-loader,file-loader。在rules中配置好loader。webpack会根据正则表达式寻找文件，将其提供给指定的loader
+
+#### demo4
+
+在demo4中，我们在html中引入了两个js，webpack配置中做了入口分离，动态输出js文件，生成对应js文件，执行npm run build 来进行构建
