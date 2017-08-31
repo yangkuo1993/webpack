@@ -38,3 +38,10 @@ webpack安装完成后，执行npm run build 命令，控制台会有输出。we
 
 在webpack.config.js中引入了devtool:'inline-source-map',用来追踪错误
 
+#### demo6
+
+在demo6中，我们使用webpack-dev-server插件，来启动本地开发服务，实现修改代码刷新页面，并在package.json里配置npm命令。使用npm start来启动本地服务，实现修改代码刷新浏览器。
+
+模块热替换，是webpack最有用的功能之一。基于webpack-dev-server,具体配置看webpack.config.js。能实改变代码，对应模块实现局部刷新，不需要重载页面。
+
+npm start 启动webpack服务，修改styles.css来尝试局部刷新体验。基于style-loader,css-loader。如果有其他文件，可以配置相应loader来实现模块热替换。例如vue（vue-loader），react(react-hot-loader)等
