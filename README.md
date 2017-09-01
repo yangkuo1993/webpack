@@ -45,3 +45,7 @@ webpack安装完成后，执行npm run build 命令，控制台会有输出。we
 模块热替换，是webpack最有用的功能之一。基于webpack-dev-server,具体配置看webpack.config.js。能实改变代码，对应模块实现局部刷新，不需要重载页面。
 
 npm start 启动webpack服务，修改styles.css来尝试局部刷新体验。基于style-loader,css-loader。如果有其他文件，可以配置相应loader来实现模块热替换。例如vue（vue-loader），react(react-hot-loader)等
+
+#### demo7
+
+在demo7中，我们来构建生产环境与开发环境。来实现不同的npm命令执行对应的webpack构建。基于webpack的webpack-merge插件。webpack.common.js,公共的webpack配置文件，webpack.dev与webpack.prod共用webpack.common。执行npm start 来尝试开发环境的配置。执行npm build 来尝试生产环境的配置。
