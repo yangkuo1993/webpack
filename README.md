@@ -55,3 +55,7 @@ npm start 启动webpack服务，修改styles.css来尝试局部刷新体验。�
 #### demo8
 
 在demo8中，我们实现了webpack动态导入功能。异步函数来实现动态导入功能
+
+#### demo9
+
+在demo9中，我们实现了按需加载，点击按钮加载print.js。（基于代码分离）
