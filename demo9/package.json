@@ -1,0 +1,34 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "normal": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangkuo1993/webpack.git"
+  },
+  "author": "RobertYang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangkuo1993/webpack/issues"
+  },
+  "homepage": "https://github.com/yangkuo1993/webpack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
