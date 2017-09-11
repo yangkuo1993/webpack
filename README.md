@@ -59,3 +59,7 @@ npm start 启动webpack服务，修改styles.css来尝试局部刷新体验。�
 #### demo9
 
 在demo9中，我们实现了按需加载，点击按钮加载print.js。（基于代码分离）
+
+#### demo10
+
+在demo10中，我们实现了简单的缓存机制。提取公共模块，命名vender.js。来进行缓存。
